@@ -1,7 +1,7 @@
 {
-  "name": "reveal-theme-infosupport",
+  "name": "reveal.js-theme-infosupport",
   "version": "0.0.1",
-  "description": "Info Support theme for reveal.js",
+  "description": "reveal.js theme for infosupport b.v.",
   "main": "index.js",
   "dependencies": {
     "grunt": "^0.4.5"
@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/riezebosch/reveal-infosupport.git"
+    "url": "git+https://github.com/riezebosch/reveal.js-theme-infosupport.git"
   },
   "keywords": [
     "reveal",
@@ -24,7 +24,7 @@
   "author": "Manuel Riezebosch",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/riezebosch/reveal-infosupport/issues"
+    "url": "https://github.com/riezebosch/reveal.js-theme-infosupport/issues"
   },
-  "homepage": "https://github.com/riezebosch/reveal-infosupport#readme"
+  "homepage": "https://github.com/riezebosch/reveal.js-theme-infosupport#readme"
 }
