@@ -1,0 +1,25 @@
+{
+  "name": "reveal-theme-infosupport",
+  "authors": [
+    "Manuel Riezebosch <mriezebosch@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "reveal",
+    "infosupport"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/riezebosch/reveal-infosupport",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "reveal.js": "~3.2.0"
+  }
+}
