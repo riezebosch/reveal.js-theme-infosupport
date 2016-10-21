@@ -58,6 +58,25 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
     width: 100%;
 }
 
+/* Disable background for printing */
+.print-pdf .reveal::after {
+    background-image: none;
+}
+
+/* Add logo to slides for printing
+    only add logo to the background to nested slides
+    or top level slides that have no nested slides. */
+.print-pdf section>:not(section)~.slide-background::after {
+  content: "";
+  background-image: url(logo.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  height: 5%;
+  width: 100%;
+}
 
 .reveal section img {
  		border: 0;
