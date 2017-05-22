@@ -8,8 +8,8 @@
 
 
 // Default mixins and settings -----------------
-@import "bower_components/reveal.js/css/theme/template/mixins";
-@import "bower_components/reveal.js/css/theme/template/settings";
+@import "node_modules/reveal.js/css/theme/template/mixins";
+@import "node_modules/reveal.js/css/theme/template/settings";
 // ---------------------------------------------
 
 
@@ -40,7 +40,7 @@ $selectionBackgroundColor: rgba(0, 0, 0, 0.99);
 }
 
 // Theme template ------------------------------
-@import "bower_components/reveal.js/css/theme/template/theme";
+@import "node_modules/reveal.js/css/theme/template/theme";
 // ---------------------------------------------
 
 /*********************************************
